@@ -39,6 +39,9 @@ Write down the logs you get in this second run after you stop the container
 
 Write down the status of the container, its name and exit code, after it was stopped.
 
+CONTAINER ID   IMAGE                         COMMAND                  CREATED         STATUS                      PORTS                                            NAMES
+bb9d48a0bc76   nginx                         "/docker-entrypoint.…"   2 minutes ago   Exited (0) 6 seconds ago                                                     some-nginx
+
 
 ### Tips
 
