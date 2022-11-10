@@ -11,3 +11,11 @@ Build a modification of the Nginx image with the additions we set in the exercis
 - Run the container with the ports published
 - Copy the right content of each port into `ex1_solution.md`
 - Make a pull request with the modified files
+
+
+
+
+
+docker build -t buildt-nginx .
+
+docker run --name ngx -d -p 18888:8888 -p 18880:80 buildt-nginx
